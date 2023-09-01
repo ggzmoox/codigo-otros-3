@@ -4,11 +4,8 @@ input {
   font-size: 18px;
 }
 
-/* se agregan propiedades flez para que los producto se ajuste a la pantalla */
 #lista-de-productos {
-  display: flex;
-  flex-direction: row;
-  flex-wrap:wrap;
+  display: flex
 }
 
 .producto {
@@ -23,5 +20,5 @@ input {
 
 .producto img {
   width: 70%;
-  height: auto;
+  height: auto
 }

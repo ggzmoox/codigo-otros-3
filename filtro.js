@@ -1,4 +1,4 @@
-// Tenemos un li de productos
+
 
 const productos = [
   {nombre: "Zapato negro", tipo: "zapato", color: "negro", img: "./taco-negro.jpg"},
@@ -8,7 +8,7 @@ const productos = [
   {nombre: "Zapato rojo", tipo: "zapato", color: "rojo", img: "./zapato-rojo.jpg"}
 ]
 
-const li = document.getElementsById("lista-de-productos"); /* estaba referenciando por que no tene atributo name */
+const li = document.getElementById("lista-de-productos"); /* estaba referenciando por que no tene atributo name */
 const $i = document.querySelector('input'); /* input noe una clase sino un elemento */
 
 for (let i = 0; i < productos.length; i++) {
